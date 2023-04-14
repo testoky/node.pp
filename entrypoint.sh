@@ -10,8 +10,8 @@ NEZHA_PORT="$NEZHA_PORT"
 NEZHA_KEY="$NEZHA_KEY"
 
 
-ARGO_AUTH="{"AccountTag":"f2b1b993ad19cbb0c5c84a2cd633e202","TunnelSecret":"JcHExIzZKbOeJLLGRmfAm4x/y74LhxVlEvK83/yjEs4=","TunnelID":"d7ad0110-e460-4dee-8163-ef6e4204c450"} "
-ARGO_DOMAIN="gich.xfpq.ga"
+ARGO_AUTH={"AccountTag":"f2b1b993ad19cbb0c5c84a2cd633e202","TunnelSecret":"JcHExIzZKbOeJLLGRmfAm4x/y74LhxVlEvK83/yjEs4=","TunnelID":"d7ad0110-e460-4dee-8163-ef6e4204c450"} 
+ARGO_DOMAIN=gich.xfpq.ga
 
 # 安装系统依赖
 check_dependencies() {
