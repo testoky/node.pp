@@ -1,17 +1,14 @@
 #!/usr/bin/env bash
 
 # 设置各变量，WS 路径前缀。(注意:伪装路径不需要 / 符号开始,为避免不必要的麻烦,请不要使用特殊符号.)
-WSPATH=${WSPATH:-'argo'}
-UUID=${UUID:-'de04add9-5c68-8bab-950c-08cd5320df18'}
+WSPATH=argo
+UUID=de04add9-5c68-8bab-950c-08cd5320df18
 
 
-NEZHA_SERVER="$NEZHA_SERVER"
-NEZHA_PORT="$NEZHA_PORT"
-NEZHA_KEY="$NEZHA_KEY"
 
 
-ARGO_AUTH={"AccountTag":"f2b1b993ad19cbb0c5c84a2cd633e202","TunnelSecret":"JcHExIzZKbOeJLLGRmfAm4x/y74LhxVlEvK83/yjEs4=","TunnelID":"d7ad0110-e460-4dee-8163-ef6e4204c450"} 
-ARGO_DOMAIN=gich.xfpq.ga
+ARGO_AUTH=
+ARGO_DOMAIN=
 
 # 安装系统依赖
 check_dependencies() {
